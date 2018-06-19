@@ -1,0 +1,28 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "springboot-s2i",
+                "projectName": "springboot-s2i",
+                "workingDirectory": "/Users/alanfan/Desktop/springboot-s2i",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "springboot-s2i",
+                "projectName": "springboot-s2i",
+                "workingDirectory": "/Users/alanfan/Desktop/springboot-s2i",
+                "args": [],
+                "vmargs": [],
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
