@@ -9,6 +9,6 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: springboot-s2i:${CICD_EXECUTION_SEQUENCE}
+      tag: test/springboot-s2i:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: 127.0.0.1:34755
+      registry: registry.xk12.cn
