@@ -8,6 +8,7 @@ stages:
         pwd
         cat /etc/hostname
         df -h
+        ps aux
 - name: Publish
   steps:
   - publishImageConfig:
