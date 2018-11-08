@@ -12,7 +12,7 @@ public class SpringbootS2iApplication {
 
 	@GetMapping
 	public String greeting(){
-		return "Nice to meet you !";
+		return "Nice to meet you !!!";
 	}
 
 	public static void main(String[] args) {
